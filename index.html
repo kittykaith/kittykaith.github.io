@@ -26,6 +26,19 @@
             background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
             font-family: 'Benne', serif;
         }
+
+        #profile{
+            height: 600px;
+            width: 400px;
+            border-radius: 15px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #profile{
+                height: 400px;
+                width: 300px;
+            }
+        }
     </style>
 
 </head>
@@ -54,7 +67,7 @@
             <div class="row">
                 <div data-aos="fade-right" class="col-md-12 col-lg-6 text-center">
                     <div>
-                        <img src="./images/profile.jpg" alt="" style="height: 600px; width: 400px; border-radius: 15px;">
+                        <img id="profile" src="./images/profile.jpg" alt="">
                     </div>
                 </div>
                 <div data-aos="fade-left" class="col-md-12 col-lg-6 d-flex align-items-center">
